@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE07D2932021AE4600AF4496 /* PickerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07D2922021AE4600AF4496 /* PickerOld.swift */; };
+		FE07D2952021B6F700AF4496 /* PassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE07D2942021B6F700AF4496 /* PassData.swift */; };
+		FE2A4AB620240AD400F48F9B /* AllData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2A4AB520240AD400F48F9B /* AllData.swift */; };
 		FE98B57C201EC7F500D62868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98B57B201EC7F500D62868 /* AppDelegate.swift */; };
 		FE98B57E201EC7F500D62868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98B57D201EC7F500D62868 /* ViewController.swift */; };
 		FE98B581201EC7F500D62868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE98B57F201EC7F500D62868 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE07D2922021AE4600AF4496 /* PickerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerOld.swift; sourceTree = "<group>"; };
+		FE07D2942021B6F700AF4496 /* PassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassData.swift; sourceTree = "<group>"; };
+		FE2A4AB520240AD400F48F9B /* AllData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllData.swift; sourceTree = "<group>"; };
 		FE98B578201EC7F500D62868 /* 2STreghiter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2STreghiter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE98B57B201EC7F500D62868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE98B57D201EC7F500D62868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,9 +84,12 @@
 				FE98B593201ECB3F00D62868 /* CityTableViewController.swift */,
 				FE98B599201EDA5700D62868 /* DistrictsTableViewController.swift */,
 				FEFFDD2B202019E900E34F2A /* RadioButton.swift */,
+				FE07D2922021AE4600AF4496 /* PickerOld.swift */,
+				FE07D2942021B6F700AF4496 /* PassData.swift */,
+				FE2A4AB520240AD400F48F9B /* AllData.swift */,
 				FE98B57F201EC7F500D62868 /* Main.storyboard */,
-				FE98B582201EC7F500D62868 /* Assets.xcassets */,
 				FE98B584201EC7F500D62868 /* LaunchScreen.storyboard */,
+				FE98B582201EC7F500D62868 /* Assets.xcassets */,
 				FE98B596201ECD9800D62868 /* Cities.plist */,
 				FE98B595201ECD9800D62868 /* Districts.plist */,
 				FE98B587201EC7F500D62868 /* Info.plist */,
@@ -163,10 +172,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE98B594201ECB3F00D62868 /* CityTableViewController.swift in Sources */,
+				FE2A4AB620240AD400F48F9B /* AllData.swift in Sources */,
 				FE98B59A201EDA5700D62868 /* DistrictsTableViewController.swift in Sources */,
 				FE98B58E201EC80600D62868 /* DataService.swift in Sources */,
 				FE98B592201EC86C00D62868 /* District.swift in Sources */,
+				FE07D2932021AE4600AF4496 /* PickerOld.swift in Sources */,
 				FE98B57E201EC7F500D62868 /* ViewController.swift in Sources */,
+				FE07D2952021B6F700AF4496 /* PassData.swift in Sources */,
 				FE98B590201EC84F00D62868 /* City.swift in Sources */,
 				FE98B57C201EC7F500D62868 /* AppDelegate.swift in Sources */,
 				FEFFDD2C202019E900E34F2A /* RadioButton.swift in Sources */,
